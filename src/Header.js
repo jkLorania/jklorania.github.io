@@ -12,7 +12,7 @@ import {
 export default function App() {
   return (
     <header>
-      <MDBNavbar expand='lg' light bgColor='white'>
+      <MDBNavbar expand='lg' light bgColor='white' sticky>
         <MDBContainer fluid>
           <MDBNavbarToggler
             aria-controls='navbarExample01'
@@ -58,6 +58,15 @@ export default function App() {
           </div>
         </div>
       </div>
+
+      <p className='mt-4'>Scroll down</p>
+      <p>Scroll down</p>
+      <p>Scroll down</p>
+      <p>Scroll down</p>
+      <p>Scroll down</p>
+      <p>Scroll down</p>
+      <p>Scroll down</p>
+      <p>Scroll down</p>
     </header>
   );
 }
