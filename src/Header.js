@@ -56,15 +56,13 @@ export default function App() {
                 href='http://jklorania.epizy.com/jessa_resume.pdf'
                 role='button'
                 rel="noopener noreferrer"
-                target='_blank' download
+                target='_blank'
               >
                 Download Resume
               </a>
               <a
                 className='btn btn-outline-light btn-lg m-2'
                 href='#'
-                rel="noopener noreferrer"
-                target='_blank'
                 role='button'
               >
                 View Pricing
