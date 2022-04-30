@@ -12,7 +12,7 @@ import {
 export default function App() {
   return (
     <header>
-      <MDBNavbar expand='lg' light bgColor='white'>
+      {/* <MDBNavbar expand='lg' light bgColor='white'>
         <MDBContainer fluid>
           <MDBNavbarToggler
             aria-controls='navbarExample01'
@@ -40,34 +40,34 @@ export default function App() {
             </MDBNavbarNav>
           </div>
         </MDBContainer>
-      </MDBNavbar>
+      </MDBNavbar> */}
 
       <div
         id='intro-example'
         className='p-5 text-center bg-image'
-        style={{ backgroundImage: "url('https://mdbootstrap.com/img/new/slides/041.webp')", backgroundSize: 'cover', overflow: 'hidden', display: 'flex', justifyContent: 'center' }} >
+        style={{backgroundColor: '#1c3c4b', backgroundSize: 'cover', overflow: 'hidden', display: 'flex', justifyContent: 'center' }} >
         <div className='mask'>
           <div className='d-flex justify-content-center align-items-center h-100'>
-            <div className='text-white'>
-              <h1 className='mb-3'>Learn Bootstrap 5 with MDB</h1>
-              <h5 className='mb-4'>Best &amp; free guide of responsive web design</h5>
+            <div>
+              <h1 className='mb-3' style={{color: '#f38174', fontWeight: 'bold', fontSize: '14vw'}} >HELLO.</h1>
+              <h5 className='mb-4 text-white'>I'm Jess, I'm a web designer and developer.<br/>I create clean and appealing designs.</h5>
               <a
                 className='btn btn-outline-light btn-lg m-2'
-                href='https://www.youtube.com/watch?v=c9B4TPnak1A'
+                href='http://jklorania.epizy.com/jessa_resume.pdf'
                 role='button'
                 rel="noopener noreferrer"
-                target='_blank'
+                target='_blank' download
               >
-                Start tutorial
+                Download Resume
               </a>
               <a
                 className='btn btn-outline-light btn-lg m-2'
-                href='https://mdbootstrap.com/docs/standard/'
+                href='#'
                 rel="noopener noreferrer"
                 target='_blank'
                 role='button'
               >
-                Download MDB UI KIT
+                View Pricing
               </a>
             </div>
           </div>
