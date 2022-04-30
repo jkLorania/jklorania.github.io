@@ -45,9 +45,8 @@ export default function App() {
       <div
         id='intro-example'
         className='p-5 text-center bg-image'
-        style={{ backgroundImage: "url('https://mdbootstrap.com/img/new/slides/041.webp')" }}
-      >
-        <div className='mask' style={{ backgroundColor: 'rgba(0, 0, 0, 0.7)' }}>
+        style={{ backgroundImage: "url('https://mdbootstrap.com/img/new/slides/041.webp')", backgroundSize: 'cover', overflow: 'hidden', display: 'flex', justifyContent: 'center' }} >
+        <div className='mask'>
           <div className='d-flex justify-content-center align-items-center h-100'>
             <div className='text-white'>
               <h1 className='mb-3'>Learn Bootstrap 5 with MDB</h1>
