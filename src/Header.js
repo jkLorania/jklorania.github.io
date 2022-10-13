@@ -1,47 +1,18 @@
 import React from 'react';
 import {
-  MDBNavbar,
-  MDBNavbarNav,
-  MDBNavbarItem,
-  MDBNavbarToggler,
-  MDBNavbarLink,
-  MDBContainer,
-  MDBIcon
+  // MDBNavbar,
+  // MDBNavbarNav,
+  // MDBNavbarItem,
+  // MDBNavbarToggler,
+  // MDBNavbarLink,
+  // MDBContainer,
+  // MDBIcon
 } from 'mdb-react-ui-kit';
+import { Link } from "react-router-dom";
 
 export default function App() {
   return (
     <header>
-      {/* <MDBNavbar expand='lg' light bgColor='white'>
-        <MDBContainer fluid>
-          <MDBNavbarToggler
-            aria-controls='navbarExample01'
-            aria-expanded='false'
-            aria-label='Toggle navigation'
-          >
-            <MDBIcon fas icon='bars' />
-          </MDBNavbarToggler>
-          <div className='collapse navbar-collapse' id='navbarExample01'>
-            <MDBNavbarNav right className='mb-2 mb-lg-0'>
-              <MDBNavbarItem active>
-                <MDBNavbarLink aria-current='page' href='#'>
-                  Home
-                </MDBNavbarLink>
-              </MDBNavbarItem>
-              <MDBNavbarItem>
-                <MDBNavbarLink href='#'>Features</MDBNavbarLink>
-              </MDBNavbarItem>
-              <MDBNavbarItem>
-                <MDBNavbarLink href='#'>Pricing</MDBNavbarLink>
-              </MDBNavbarItem>
-              <MDBNavbarItem>
-                <MDBNavbarLink href='#'>About</MDBNavbarLink>
-              </MDBNavbarItem>
-            </MDBNavbarNav>
-          </div>
-        </MDBContainer>
-      </MDBNavbar> */}
-
       <div
         id='intro-example'
         className='p-5 text-center bg-image'
@@ -60,13 +31,11 @@ export default function App() {
               >
                 Download Resume
               </a>
-              <a
-                className='btn btn-outline-light btn-lg m-2'
-                href='#'
-                role='button'
-              >
-                View Pricing
-              </a>
+              <Link to="./pages/Pricing">
+                <button variant="outlined" className='btn btn-outline-light btn-lg m-2'>
+                  View Pricing
+                </button>
+              </Link>
             </div>
           </div>
         </div>
